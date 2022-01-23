@@ -1,0 +1,64 @@
+   body {
+    background:#3366ff;
+}
+
+
+.msg-button {
+    margin-right: 10px;
+    outline: 0 !important;
+    background: #fff;
+    box-shadow: none !important;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.msg-button:hover {
+    transform: scaleX(1.1)
+}
+
+
+.rate {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px
+}
+
+.rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center
+}
+
+.rating>input {
+    display: none
+}
+
+.rating>label {
+    position: relative;
+    width: 1em;
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFD600;
+    cursor: pointer
+}
+
+.rating>label::before {
+    content: "\2605";
+    position: absolute;
+    opacity: 0
+}
+
+.rating>label:hover:before,
+.rating>label:hover~label:before {
+    opacity: 1 !important
+}
+
+.rating>input:checked~label:before {
+    opacity: 1
+}
+
+.rating:hover>input:checked~label:before {
+    opacity: 0.4
+}
+
+
+
