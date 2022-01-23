@@ -282,7 +282,7 @@ window.onclick = function(event) {
                   <h5 class="my-5 h5">Mr. Muhammad Sharyar</h5>
                   <h6 class="my-5 h6">CEO & Founder</h6>
 
-                  <img class="rounded-circle z-depth-2" style="width:10em; height:10em" src="/assets/img/Sharyar2.jpg"
+                  <img class="rounded-circle z-depth-2" style="width:10em; height:10em" src="/assets/img/Sharyar.jpg"
                     data-holder-rendered="true">
 
                 </div>
@@ -293,7 +293,7 @@ window.onclick = function(event) {
                 <div class="col-md-6 mb-4">
 
                 <h5 class="my-5 h5">Mr. Faizullah Mughal</h5>
-                <h6 class="my-5 h6">Chief Designer</h6>
+                <h6 class="my-5 h6">Chief Operating Officer</h6>
 
                   <img class="rounded-circle z-depth-2"  style="width:10em; height:10em" src="/assets/img/Faiz.jpg"
                     data-holder-rendered="true">
