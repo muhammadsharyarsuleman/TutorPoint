@@ -179,6 +179,9 @@ li{
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#managementTeam">Management Team</a>
+          </li>
+          <li class="nav-item">
             <a  Class="nav-link button" href="/sign-in">Sign In</a>
           </li>
           <li class="nav-item">
@@ -264,6 +267,48 @@ window.onclick = function(event) {
     </div>
   </section>
 
+  <section id="managementTeam">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Management Team</h2>
+          
+               <!--Grid row-->
+    <div class="row text-center">
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                  <h5 class="my-5 h5">Mr. Muhammad Sharyar</h5>
+                  <h6 class="my-5 h6">CEO & Founder</h6>
+
+                  <img class="rounded-circle z-depth-2" style="width:10em; height:10em" src="/assets/img/Sharyar 2.jpg"
+                    data-holder-rendered="true">
+
+                </div>
+                <!--Grid column-->
+              
+
+                <!--Grid column-->
+                <div class="col-md-6 mb-4">
+
+                <h5 class="my-5 h5">Mr. Faizullah Mughal</h5>
+                <h6 class="my-5 h6">Chief Designer</h6>
+
+                  <img class="rounded-circle z-depth-2"  style="width:10em; height:10em" src="/assets/img/Faiz.jpg"
+                    data-holder-rendered="true">
+
+                </div>
+                <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
 @include('footer')
 
 
@@ -272,6 +317,7 @@ window.onclick = function(event) {
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
+  <script src="assets/js/scrolling-nav.js"></script>
   <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   
