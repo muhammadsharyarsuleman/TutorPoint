@@ -282,7 +282,7 @@ window.onclick = function(event) {
                   <h5 class="my-5 h5">Mr. Muhammad Sharyar</h5>
                   <h6 class="my-5 h6">CEO & Founder</h6>
 
-                  <img class="rounded-circle z-depth-2" style="width:10em; height:10em" src="/assets/img/Sharyar 2.jpg"
+                  <img class="rounded-circle z-depth-2" style="width:10em; height:10em" src="/assets/img/Sharyar2.jpg"
                     data-holder-rendered="true">
 
                 </div>
