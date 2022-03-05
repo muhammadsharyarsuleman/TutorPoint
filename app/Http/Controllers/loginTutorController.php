@@ -16,7 +16,7 @@ class loginTutorController extends Controller
     public function tutorCheck(Request $request){
         $request->validate([
             'tutor_username'=>'required',
-            'tutor_password'=>'required|min:5|max:12'
+            'tutor_password'=>'required|min:3|max:12'
         ]);
 
         $tutorInfo = tutor::where('tutor_username','=',$request->tutor_username)->first();

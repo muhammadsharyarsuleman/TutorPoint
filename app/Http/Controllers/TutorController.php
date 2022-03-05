@@ -50,7 +50,7 @@ class TutorController extends Controller
             'tutor_username'=>'required|unique:tutors',
             'tutor_firstname'=>'required|alpha',
             'tutor_lastname'=>'required|alpha',
-            'tutor_password'=>'required|min:5|max:12',
+            'tutor_password'=>'required|min:3|max:12',
             'tutor_phone_number'=>'required|numeric|digits:11',
             'tutor_year_of_experience'=>'required',
             'tutor_age'=>'required|numeric|digits:2',

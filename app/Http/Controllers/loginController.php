@@ -20,7 +20,7 @@ class loginController extends Controller
     public function learnerCheck(Request $request){
         $request->validate([
             'learner_username'=>'required',
-            'learner_password'=>'required|min:5|max:12'
+            'learner_password'=>'required|min:3|max:12'
         ]);
 
         $learnerInfo = learner::where('learner_username','=',$request->learner_username)->first();
