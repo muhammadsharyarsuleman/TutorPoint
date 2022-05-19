@@ -144,6 +144,7 @@ input:checked + .slider:before {
                 <div class="col-md-6 login-form-2" id="Learner" style="display:none">
                     <h3>Learner Login</h3>
                     <form action="{{route('learner.check')}}" method="POST">
+                    @csrf
                     @if(Session::get('successLearner'))
                     <script>
                     var triggered=true;
@@ -160,7 +161,7 @@ input:checked + .slider:before {
                             {{ Session::get('failLearner') }}
                         </div>
                     @endif
-                    @csrf
+                    
                         <div class="form-group">
                             <input type="text" name="learner_username" class="form-control" placeholder="Enter Username *" value="" required/>
                             <span class="text-danger">@error('learner_username'){{ $message }} @enderror</span>
