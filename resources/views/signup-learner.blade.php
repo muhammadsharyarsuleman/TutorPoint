@@ -23,6 +23,7 @@
 	<div class="page-content">
 		<div class="form-v10-content">
 			<form class="form-detail"  enctype="multipart/form-data" action="{{route('learner.store')}}" method="post" id="myform">
+            @csrf
 				
 				<div class="form-left">
 					<h2>Learner Register </h2>
@@ -39,7 +40,7 @@
 					<div>
 					@endif
 
-					@csrf
+					
 					
 					<div class="form-row">
 						<input type="text" name="learner_username" class="user_name" id="input-text" placeholder="Enter User Name*" required>
