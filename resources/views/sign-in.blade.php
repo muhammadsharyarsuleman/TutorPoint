@@ -103,6 +103,7 @@ input:checked + .slider:before {
                 <div class="col-md-6 login-form-1" id="Tutor" style="display:block">
                     <h3 style="color:#0f5298;">Tutor Login</h3>
                     <form action="{{route('tutor.check')}}" method="POST">
+                    @csrf
                     @if(Session::get('successTutor'))
                         <div class="alert alert-success">
                             {{ Session::get('successTutor') }}
@@ -113,7 +114,7 @@ input:checked + .slider:before {
                             {{ Session::get('failTutor') }}
                         </div>
                     @endif
-                        @csrf
+                        
                         <div class="form-group">
                             <input type="text" name="tutor_username" class="form-control" placeholder=" Enter Username *" value="" />
                             <span class="text-danger">@error('tutor_username'){{ $message }} @enderror</span>
