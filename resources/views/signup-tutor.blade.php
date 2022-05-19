@@ -24,7 +24,8 @@
 	<div class="page-content">
 		<div class="form-v10-content">
 			<form class="form-detail" enctype="multipart/form-data" action="{{route('tutor.store')}}" method="post" id="myform">
-		
+		    @csrf
+
 				<div class="form-left">
 					<h2>Tutor Register </h2>
 					
@@ -40,8 +41,7 @@
 					<div>
 					@endif
 
-					@csrf
-
+					
 					<div class="form-row">
 						<input type="text" name="tutor_username" class="user_name" id="teacher_id" placeholder="Enter User Name*" value="{{ old('tutor_username') }}" required>
 						<span class="text-danger">@error('tutor_username'){{ $message }} @enderror</span>
